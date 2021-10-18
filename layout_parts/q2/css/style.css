@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix {
+
+}
 .box{
   margin-top: 20px;
 }
