@@ -3,14 +3,11 @@
 /* 回答はここに書いてね */
 .q3__contents {
   width: 100%;
-  border: 1px solid #dedede;
   table-layout: fixed;
   margin: 0;
-  padding: 0;
   font-size: 100%;
   font: inherit;
 }
-
 
 .q3__contents td {
   line-height: 22px;
@@ -30,11 +27,11 @@
   vertical-align: middle;
 }
 
-tr:nth-child(even) {
+.q3__contents tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-tbody tr:last-child {
+.q3__contents tr:last-child {
   border-top: 2px dashed #000;
 }
 /* 回答はここに書いてね */
