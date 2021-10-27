@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.q6_1_1 {
+.q6_firstbox_left {
   background-color: #e6f2ff;
   width: 90px;
   text-align: center;
@@ -15,7 +15,7 @@
   display: inline-block;
 }
 
-.q6_1_2 {
+.q6_firstbox_right {
   background-color: #e6f2ff;
   width: 90px;
   text-align: center;
@@ -24,7 +24,7 @@
   margin: auto;
 }
 
-.q6_2_1 {
+.q6_centerbox_left {
   padding: 10px;
   background-color: #fff;
   display: inline-block;
@@ -40,7 +40,7 @@
   vertical-align: middle;
 }
 
-.q6_2_2 {
+.q6_centerbox_right {
   padding: 10px;
   background-color: #fff;
   display: table;
@@ -53,7 +53,7 @@
 }
 
 
-.q6_3_1 {
+.q6_lastbox_left {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -62,7 +62,7 @@
   margin: auto;
 }
 
-.q6_3_2 {
+.q6_lastbox_right {
   position: absolute;
   top: 50%;
   left: 50%;

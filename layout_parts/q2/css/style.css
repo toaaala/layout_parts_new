@@ -6,12 +6,12 @@
   content: "";
   clear: both;
   }
-}
+
 .q2__box{
   margin-top: 20px;
 }
 
-.q2 {
+.q2__inbox {
   width: 900px;
   padding: 20px;
   background-color: #eff3f4;

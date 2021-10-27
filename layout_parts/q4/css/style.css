@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box {
+.q4__box {
   margin-top: 20px;
 }
 
-.q4 {
+.q4__inbox {
   padding: 20px;
   box-sizing: border-box;
   background-color: #ecf1f2;
@@ -21,6 +21,7 @@
 .q4__contents:first-child {
   margin-top: 0;
 }
+
 .q4__contents__cell {
   display: table-cell;
   padding: 20px 0;
@@ -31,7 +32,6 @@
   width: 100px;
   background-color: #fdc8b8;
 }
-
 
 .q4__contents__cell.is-purple {
   background-color: #e0abd9;

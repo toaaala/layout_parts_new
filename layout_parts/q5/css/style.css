@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q5 {
+.q5__box {
   position: relative;
   width: 500px;
   height: 500px;
@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 
-.q5_box {
+.q5__minibox {
   position: absolute;
   width: 100px;
   height: 100px;
