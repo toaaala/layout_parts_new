@@ -37,7 +37,6 @@
   color: #fff;
   box-sizing: border-box;
   word-break: break-all;
-  
 }
 
 .q8__box:hover .q8__box__up {
@@ -67,5 +66,4 @@
     transform: rotate(360deg);
   }
 }
-
 /* 回答はここに書いてね */
