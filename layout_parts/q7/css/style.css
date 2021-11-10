@@ -1,18 +1,18 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q7 .q7__box {
+.q_7 .q7__cell {
   width: 225px;
 }
 
-.q7--float .q7__box {
+.q7_float .q7__cell {
   float: left;
   margin-left: 50px;
   font-size: 16px;
   box-sizing: border-box;
 }
 
-.q7--float .q7__box:first-child {
+.q7_float .q7__cell:first-child {
   margin-left: 0;
 }
 
@@ -22,21 +22,21 @@
   clear: both;
 }
 
-.q7--table .q7__box {
+.q7_table .q7__cell {
   display: table-cell;
   padding-left: 50px;
   vertical-align: middle;
 }
 
-.q7--table .q7__box:first-child {
+.q7_table .q7__cell:first-child {
   padding-left: 0;
 }
 
-.q7--table .q7__inner {
+.q7_table .q7__inside {
   display: table;
 }
 
-.q7--inlineblock .q7__box {
+.q7_inlineblock .q7__cell {
   display: inline-block;
   margin-left: 50px;
   font-size: 16px;
@@ -44,31 +44,31 @@
   box-sizing: border-box;
 }
 
-.q7--inlineblock .q7__box:first-child {
+.q7_inlineblock .q7__cell:first-child {
   margin-left: 0
 }
 
-.q7--inlineblock .q7__inner {
+.q7_inlineblock .q7__inside {
   font-size: 0;
 }
 
-.q7--flex .q7__inner {
+.q7_flex .q7__inside {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.q7--flex .q7__box {
+.q7_flex .q7__cell {
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
 }
 
-.q7--margin .q7__inner {
+.q7_margin .q7__inside {
   font-size: 0;
 }
 
-.q7--margin .q7__box.is-flexible {
+.q7_margin .q7__cell.is-flexible {
   display: inline-block;
   width: 100%;
   margin-left: -300px;
@@ -76,15 +76,15 @@
   box-sizing: border-box;
 }
 
-.q7--margin .q7__box {
+.q7_margin .q7__cell {
   vertical-align: top;
 }
 
-.q7--margin .q7__box__text {
+.q7_margin .q7_text {
   font-size: 16px;
 }
 
-.q7--margin .q7__box.is-stable {
+.q7_margin .q7__cell {
   display: inline-block;
   width: 300px;
 }
